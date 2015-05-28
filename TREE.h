@@ -18,7 +18,6 @@ class Tree {
         Tree(Tree& T);
         Node* CopyTree (Node* tmp1);
         void AddNode (int l);
-        void Add (Node* tmp2, int k);
         Node* Search(int s);
 	    Node* search (Node* tmp, int v);
         void DelNode (int D);
@@ -29,6 +28,8 @@ class Tree {
     ~Tree();
 
 };
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
 
 void print_Tree(Node* p, int level, ostream& s);
 
